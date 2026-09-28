@@ -1,1 +1,0 @@
-import{G as s}from"./index-BT5dfLyi.js";const p={async getSuppliers(){return(await s.get("/suppliers")).data.data},async createSupplier(e){return(await s.post("/suppliers",e)).data},async updateSupplier(e,r){return(await s.put(`/suppliers/${e}`,r)).data},async deleteSupplier(e){return(await s.delete(`/suppliers/${e}`)).data}};export{p as s};
